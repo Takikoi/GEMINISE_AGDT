@@ -1,5 +1,5 @@
 # GEMINISE IK Solver 
-This is an Inverse Kinematic solver for robotic arm system in Unity.
+This is an Inverse Kinematic solver for robotic arm system in Unity. The algorithm is converted from LM Chan's solution specifically. (See Peter Corke's docs for further details.)
 
 Credit: [Peter Corke's Manipulator Differential Kinematics Tutorials](https://github.com/jhavl/dkt.git)
 
