@@ -484,9 +484,9 @@ namespace Takikoi.Kinematics
         //     double[][] randPositions = new double[size][dof];
         // }
 
+    #region Static Functions
         public static LinAlg.Vector<double> CalculatePoseError(LinAlg.Matrix<double> currentPose, LinAlg.Matrix<double> desiredPose)
         {
-        // todo: Check the P-norm function as it give different value than that of python
             /// <summary>
             /// Pose is the base2eef transform matrix
             /// This method calculate the error vector matrix from 2 pose
@@ -529,6 +529,7 @@ namespace Takikoi.Kinematics
             error.SetSubVector(3, 3, rotErrVector);
             return error;
         }
+    #endregion Static Functions
     }
 
     [Serializable]
